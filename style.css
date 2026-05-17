@@ -1,0 +1,46 @@
+
+body{
+    margin-inline: 2vw;
+    background-color:whitesmoke;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(168, 209, 199);
+    padding: 1vw;
+}
+
+img{
+    width: 100%;
+    max-width: 600px;
+    aspect-ratio: 16/9;
+}
+
+.project{
+    margin: 2vw;
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.card{
+    border: 2px solid rgb(197, 195, 195);
+    width: 100%;
+    max-width: 600px;
+    gap: 3vw;
+    transition: 0.2s;
+}
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 15px rgba(0 ,0 ,0 ,0.2);
+}
